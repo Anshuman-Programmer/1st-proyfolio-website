@@ -52,6 +52,14 @@
   align-items: center;
 }
 
+.hero__socials > a{
+  transition: 200ms ease-in-out;
+}
+
+.hero__socials > a:hover{
+  transform: scale(1.1);
+}
+
 @keyframes blinker {
   100%{
     opacity: 1;
