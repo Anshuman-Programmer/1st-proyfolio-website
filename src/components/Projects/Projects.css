@@ -1,0 +1,23 @@
+
+.projects{
+  background-color: #041022;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__heading{
+  font-size: 3rem;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 3rem;
+}
+
+.projects__single{
+  max-width: 80vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 2rem;
+}

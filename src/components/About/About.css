@@ -36,4 +36,12 @@
 
 .about__main > img{
   width: 40%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 200ms ease-in-out;
+}
+
+.about__main > img:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }

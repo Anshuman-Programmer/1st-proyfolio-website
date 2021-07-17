@@ -5,7 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Hero() {
   return (
-    <section className="hero">
+    <div className="hero">
       <h1 className="hero__heading">Hi,<br/><span>Anshuman</span> Talukdar<span className="blinker">|</span><br/>Web developer</h1>
       <button className="hero__btn">Contact_me</button>
       <div className="hero__socials">
@@ -24,7 +24,7 @@ function Hero() {
         <p className="hero__emailAddress">anshumantalukdar02@gmail.com</p>
         <div className="line"></div>
       </div>
-    </section>
+    </div>
   )
 }
 

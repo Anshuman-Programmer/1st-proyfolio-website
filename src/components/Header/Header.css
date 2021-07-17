@@ -11,7 +11,7 @@
   color: #49e9b6;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  
+  z-index: 50;
 }
 
 .header__logo{
@@ -48,7 +48,6 @@
 .header_resume_link{
   color: #041022;
   font-family: 'Source Code Pro', monospace;
-  text-decoration: none;
   font-weight: 700;
   background-color: #49e9b6;
   margin-left: 2rem;
@@ -57,9 +56,9 @@
   border-radius: 0.3rem;
   cursor: pointer;
   transition: all 200ms ease-in-out;
-  text-decoration: none;
-  list-style: none;
   border: 1px solid #49e9b6;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .header_resume_link:hover{

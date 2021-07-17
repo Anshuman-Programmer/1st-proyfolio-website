@@ -1,5 +1,6 @@
 
 import "./Header.css"
+import Resume from "../../assets/RESUME.pdf"
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
         <li className="header__link"><a href="#about"><span>2.</span>About_me</a></li>
         <li className="header__link"><a href="#projects"><span>3.</span>Projects</a></li>
         <li className="header__link"><a href="#contact"><span>4.</span>Contact_me</a></li>
-        <li className="header_resume_link"><a>Resume</a></li>
+        <a className="header_resume_link" download="Anshuman-Talukdar-Resume" href={Resume}>Resume</a>
       </ul>
     </header>
   )
