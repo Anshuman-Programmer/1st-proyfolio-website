@@ -1,0 +1,57 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Source Code Pro', monospace;
+  position: fixed;
+  top: 0;
+  background-color: rgb(22, 22, 46);
+  right: 0;
+  left: 0;
+  align-items: center;
+  color: aquamarine;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.header__logo{
+  margin-left: 10vw;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.header__links{
+  display: flex;
+  align-items: center;
+}
+
+.header__link{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.header__link > span{
+  color: antiquewhite;
+}
+
+
+.header_resume_link{
+  color: rgb(22, 22, 46);
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: aquamarine;
+  margin-left: 2rem;
+  margin-right: 10vw;
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
