@@ -3,7 +3,7 @@ import "./Header.css"
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <h3 className="header__logo">Anshuman T.</h3>
       <ul className="header__links">
         <li className="header__link" href="#hero"><span>1.</span>Hero</li>
@@ -12,7 +12,7 @@ function Header() {
         <li className="header__link" href="#contact"><span>4.</span>Contact_me</li>
         <li className="header_resume_link"><a>Resume</a></li>
       </ul>
-    </div>
+    </header>
   )
 }
 
