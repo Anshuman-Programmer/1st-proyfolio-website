@@ -1,0 +1,99 @@
+
+.contact{
+  height: 100vh;
+  background-color: #0b212e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__heading{
+  font-size: 3rem;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 3rem;
+}
+
+.contact__container{
+  display: flex;
+}
+
+.contact__form{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.contact__form > input{
+  background: transparent !important;
+  border: 2px solid #49e9b6;
+  padding: 1rem 1.5rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+}
+.contact__form > input:active{
+  border-radius: 0.5rem;
+  border: 2px solid #49e9b6;
+  outline-width: 0;
+
+}
+.contact__form > input:focus{
+  border-radius: 0.5rem;
+  border: 2px solid #49e9b6;
+  outline-width: 0;
+}
+
+.contact__form > input::placeholder{
+  color: white;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+
+.contact__form > .form__message{
+  height: 10rem;
+  border-radius: 0.5rem;
+  border: 2px solid #49e9b6;
+  outline-width: 0;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  font-size: 1rem;
+  font-family: 'Source Code Pro', monospace;
+  
+}
+
+.contact__form > .form__message::placeholder{
+  font-size: 1rem;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.contact__form button{
+  background: #49e9b6;
+  border: 2px solid #49e9b6;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-family: 'Source Code Pro', monospace;
+  color: #0b212e;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  width: fit-content;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contact__social{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.contact__social > p{
+  color: white;
+  font-family: 'Source Code Pro', monospace; 
+}

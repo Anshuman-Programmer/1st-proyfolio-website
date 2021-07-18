@@ -1,0 +1,23 @@
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #041022;
+  padding-bottom: 2rem;
+}
+
+.footer__icon{
+  background-color: #041022;
+  transform: translateY(-50%);
+  z-index: 50;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+
+.footer p {
+  color: #49e9b6;
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 0.5rem;
+}

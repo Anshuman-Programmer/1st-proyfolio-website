@@ -66,29 +66,4 @@
   color: #49e9b6;
 }
 
-.hero__email{
-  position: fixed;
-  bottom: 0;
-  right: 3vw;
-  color: #49e9b6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotate(90deg);
-  transform-origin: right;
-}
-
-.hero__email > .line{
-  width: 8rem;
-  height: 2px;
-  background-color: #49e9b6;
-  margin-left: 1rem;
-  margin-right: -3rem;
-}
-
-.hero__emailAddress{
-  transform: rotate(180deg);
-  font-size: 1rem;
-  font-family: 'Source Code Pro', monospace;
-}
 

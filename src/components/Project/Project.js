@@ -6,7 +6,7 @@ function Project({title,imgUrl,tech, code, demo}) {
     <div className="project">
       <h1>{title}</h1>
       <div className="project-image">
-        <img src={imgUrl} alt="project-image"/>
+        <img src={imgUrl} alt="project"/>
       </div>
       <p>React js, firebase, scss, axios,</p>
       <div className="project__btns">
