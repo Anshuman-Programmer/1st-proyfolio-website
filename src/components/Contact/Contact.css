@@ -10,9 +10,9 @@
 
 .contact__heading{
   font-size: 3rem;
-  color: white;
   font-family: 'Source Code Pro', monospace;
   margin-bottom: 3rem;
+  color: white;
 }
 
 .contact__container{
@@ -64,6 +64,7 @@
   background: transparent;
   font-size: 1rem;
   font-family: 'Source Code Pro', monospace;
+  color: white;
   
 }
 
@@ -96,4 +97,59 @@
 .contact__social > p{
   color: white;
   font-family: 'Source Code Pro', monospace; 
+}
+
+@media only screen and (max-width: 992px) {
+  .contact{
+    height: fit-content;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .contact__container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__socials{
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .contact__heading{
+    font-size: 2rem;
+  }
+
+  .contact__form > .form__message{
+    height: 6rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  .contact__form > input{
+    width: 80vw;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .contact__social > p{
+    font-size: 0.8rem;
+  }
+
+  .contact__form{
+    margin-right: 0;
+  }
+
+  .contact__form > .form__message{
+
+    width: 100%;
+    
+  }
+
+  .contact__social :first-child{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
 }

@@ -21,3 +21,9 @@
   font-family: 'Source Code Pro', monospace;
   padding-bottom: 0.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer p {
+    font-size: 0.5rem;
+  }
+}

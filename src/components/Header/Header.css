@@ -8,24 +8,46 @@
   right: 0;
   left: 0;
   align-items: center;
-  color: #49e9b6;
   padding-top: 1rem;
   padding-bottom: 1rem;
   z-index: 50;
 }
 
-.header__logo{
+.header__logo > a{
   font-family: 'Source Code Pro', monospace;
   margin-left: 5vw;
   font-weight: 700;
   font-size: 1.3rem;
   cursor: pointer;
+  color: #49e9b6;
+  text-decoration: none;
 }
 
 .header__links{
   display: flex;
   align-items: center;
   list-style: none;
+}
+
+.header__linksMobile{
+  position: fixed;
+  z-index: 100;
+  color: white;
+  background-color: #777777;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__linkMobile{
+  list-style: none;
+  padding-bottom: 1rem;
+}
+
+.header__linkMobile > a{
+  color: white;
 }
 
 .header__link > a{
@@ -37,11 +59,19 @@
   cursor: pointer;
   font-size: 1rem;
   color: #49e9b6;
+  transition: color 100ms ease-in-out;
+}
 
+.header__link > a:hover{
+  color: #2c866a;
 }
 
 .header__link > a > span{
   color: white;
+}
+
+.header__linksMobile{
+  display: none;
 }
 
 
@@ -65,5 +95,76 @@
   background-color: #041022;
   color: #49e9b6;
 }
+
+.menuBtn{
+  display: none;
+  margin-right: 5vw;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .header__link{
+    display: none;
+  }
+
+  .menuBtn{
+    display: flex;
+  }
+
+  .open{
+    transform: translateX(0%) !important;
+  }
+
+  .header__linksMobile{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: #041722;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    transform: translateX(-100%);
+    transition: all 200ms ease-in-out;
+    z-index: 200;
+  }
+  
+  .header__linkMobile{
+    list-style: none;
+    padding-bottom: 10vh;
+  }
+  
+  .header__linkMobile > a{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .header__logo > a{
+    font-size: 0.9rem;
+  }
+  
+  .header_resume_link{
+    margin-right: 3vw;
+    padding: 0.5rem 1rem;
+
+  }
+
+}
+
+
+
+
 
 

@@ -7,7 +7,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 function Hero() {
   return (
     <div className="hero">
-      <h1 className="hero__heading">Hi,<br/><span>Anshuman</span> Talukdar<span className="blinker">|</span><br/> Web developer</h1>
+      <h1 className="hero__heading">Hi,<br/>I am <span className="anshuman">Anshuman</span><span className="blinker">|</span><br/></h1>
+      <a href="#project" className="hero__webd">Web developer</a>
       <a className="hero__btn" href="#contact">Contact_me</a>
       <div className="hero__socials">
         <a href="https://www.linkedin.com/in/anshuman-talukdar/" target="_blank" rel="noreferrer">

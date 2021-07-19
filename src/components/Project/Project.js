@@ -8,7 +8,7 @@ function Project({title,imgUrl,tech, code, demo}) {
       <div className="project-image">
         <img src={imgUrl} alt="project"/>
       </div>
-      <p>React js, firebase, scss, axios,</p>
+      <p>{tech}</p>
       <div className="project__btns">
         <a className="project__btn" href={code} target="_black">code</a>
         <a className="project__btn" href={demo} target="_black">demo</a>

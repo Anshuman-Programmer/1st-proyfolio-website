@@ -5,6 +5,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 function Contact() {
   return (
@@ -14,12 +15,17 @@ function Contact() {
         <form className="contact__form" action="https://formsubmit.co/anshumantalukdar02@gmail.com" method="POST">
           <input type="text" name="name" required placeholder="Your Name"/>
           <input type="email" name="email" required placeholder="Your Email Address"/>
+          <input type="hidden" name="_next" value="http://localhost:3000/#contact"></input>
           <textarea className="form__message" type="text" name="message" required placeholder="Your Message"></textarea>
           <input type="hidden" name="_subject" value="New submission!"></input>
           <input type="hidden" name="_captcha" value="false"/>
           <button type="submit">Submit</button>
         </form>
         <div className="contact__socials">
+          <a href="https://goo.gl/maps/SqACfCpTitGSRf197" target="_blank" rel="noreferrer" className="contact__social">
+            <LocationOnIcon style={{color: "#49e9b6", fontSize: 40, marginRight: "1rem"}}/>
+            <p>Jorhat, Assam, India</p>
+          </a>
           <a className="contact__social">
             <PhoneIcon style={{color: "#49e9b6", fontSize: 40, marginRight: "1rem"}}/>
             <p>84864 31724</p>
